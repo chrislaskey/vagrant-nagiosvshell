@@ -12,3 +12,8 @@ yum install -y nagios vim nagios-plugins
 # Create nagiosadmin/nagiosadmin htpasswd file
 
 htpasswd -bc /etc/nagios/passwd nagiosadmin nagiosadmin
+
+# Start services
+
+service nagios start
+service httpd start
