@@ -13,7 +13,7 @@ To test a VM:
 
 ```sh
 cd ./centos
-git clone https://github.com/NagiosEnterprises/nagiosvshell ./nagiosvshell
+git clone https://github.com/NagiosEnterprises/nagiosvshell
 vagrant up
 vagrant ssh
 ```
